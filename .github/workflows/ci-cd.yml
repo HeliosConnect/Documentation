@@ -66,6 +66,6 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          IMAGE_TAG="ghcr.io/cryptobayspace/documentation:latest"
-          docker build --build-arg VITE_MVX_NETWORK=mainnet --tag "$IMAGE_TAG" .
+          IMAGE_TAG="ghcr.io/helio-collabathon/documentation:latest"
+          docker build --tag "$IMAGE_TAG" .
           docker push "$IMAGE_TAG"

@@ -1,43 +1,60 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Layout from "@theme/Layout";
+import clsx from "clsx";
 
-import styles from './index.module.css';
+import { PageLinkProps } from "../components/PageLink";
+import PathLink from "../components/PathLink";
+import styles from "../css/styles.module.css";
+import PageHeader from "../layout/Header";
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+export const PathLinks: PageLinkProps[] = [
+  {
+    title: "Helios Connect Concepts",
+    content:
+      "Discover how helios connects works and how you cn leverage it to create interchain identities.",
+    docName: "/Concepts",
+    icon: "🖥️", // Changed to a more typical computer monitor icon.
+  },
+  {
+    title: "Become a contributor",
+    content:
+      "Learn how to contribute to the Helios Connect project and become a part of our open source community.",
+    docName: "/contributor",
+    icon: "⚙️", // Represents settings or machinery, suitable for backend processes.
+  },
+  {
+    title: "User Guide",
+    content:
+      "Get started with Helios Connect and learn how to use it to manage your digital identity.",
+    docName: "/user-guide",
+    icon: "🏦", // A bank icon to symbolize asset management.
+  },
+  {
+    title: "Integrator Guide",
+    content:
+      "Integrate Helios Connect into your applications and services to enable secure, decentralized identity management.",
+    docName: "/frontend",
+    icon: "🔍", // A magnifying glass icon to represent observation and insight.
+  },
+];
 
 export default function Home(): JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
+  
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      title="Helios Staking Persona Solution"
+      description="The first Interchain Identity solution for the entire web3 ecosystem."
+    >
+      <PageHeader
+        title="Helios Staking Persona Solution"
+        subtitle="The first Interchain Identity solution for the entire web3 ecosystem."
+        style={{ paddingBottom: "40px" }}
+      />
+      <section className={clsx("container", styles.fullWidthContainer)}>
+        {PathLinks.map((props, idx) => (
+          <PathLink key={idx} {...props} />
+        ))}
+      </section>
     </Layout>
   );
 }
