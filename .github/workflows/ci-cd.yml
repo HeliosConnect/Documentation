@@ -27,4 +27,4 @@ jobs:
       - name: Push the Docker image
 
         run: |
-          docker push ghcr.io/helio-collabathon/documentation:latest
+          docker push ghcr.io/helios-collabathon/documentation:latest
