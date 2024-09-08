@@ -50,7 +50,7 @@ export default function Validator(): JSX.Element {
         title="Integrator"
         description="Learn how to integrate Helios Connect to your business."
       />
-      <PageSection title="Core Concepts">
+      <PageSection title="">
         {IntegrationLinks.map((props, idx) => (
           <PageLink key={idx} {...props} disabled={props.disabled} />
         ))}

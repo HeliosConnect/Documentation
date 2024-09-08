@@ -10,7 +10,7 @@ const CoreConceptsLinks: PageLinkProps[] = [
       "Discover helios connect and how you can leverage it to create interchain identities.",
     docName: "/docs/concepts/intro",
     icon: "🏛️", // Changed to represent a structured and stable architecture.
-    disabled: true,
+    disabled: false,
   },
   {
     title: "Technologies",
@@ -35,7 +35,7 @@ export default function Concepts(): JSX.Element {
         title="Concepts"
         subtitle="Learn the core concepts and guides to get started with Helios Connect."
       />
-      <PageSection title="Core Concepts">
+      <PageSection title="">
         {CoreConceptsLinks.map((props, idx) => (
           <PageLink key={idx} {...props} />
         ))}

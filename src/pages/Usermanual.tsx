@@ -10,7 +10,7 @@ const CoreConceptsLinks: PageLinkProps[] = [
       "Learn how to use the Helios Connect platform to create and manage your interchain identities.",
     docName: "/docs/usermanual/intro",
     icon: "📚", // Represents learning materials and resources.
-    disabled: true,
+    disabled: false,
   },
   {
     title: "Personas",
@@ -32,7 +32,7 @@ export default function UserManual(): JSX.Element {
         title="User Manual"
         subtitle="Learn how to use the Helios Connect platform to create and manage your interchain identities."
         />
-      <PageSection title="Core Concepts">
+      <PageSection title="">
         {CoreConceptsLinks.map((props, idx) => (
           <PageLink key={idx} {...props} disabled={props.disabled} />
         ))}
