@@ -4,10 +4,8 @@ title: Persona
 sidebar_position: 1
 ---
 
-# What is a Persona
+# What is a Persona?
 
-
-![Persona Diagram](./Assets/persona.excalidraw.png)
-
+![Persona Diagram](./Assets/WIP.png)
 
 Helios Connect uses a persona-based approach to simplify identity verification across multiple wallets. The persona acts as a unified identity for the user across various blockchain networks.
