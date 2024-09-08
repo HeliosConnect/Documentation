@@ -43,20 +43,20 @@ const UsagesLinks: PageLinkProps[] = [
 export default function Validator(): JSX.Element {
   return (
     <Layout
-      title="Integrator"
+      title="Integration"
       description="Learn how to integrate Helios Connect to your business."
     >
       <PageHeader
-        title="Integrator"
+        title="Integration"
         description="Learn how to integrate Helios Connect to your business."
       />
-      <PageSection title="">
+      <PageSection title="Why?">
         {IntegrationLinks.map((props, idx) => (
           <PageLink key={idx} {...props} disabled={props.disabled} />
         ))}
       </PageSection>
 
-      <PageSection title="Usages">
+      <PageSection title="How to access the data">
         {UsagesLinks.map((props, idx) => (
           <PageLink key={idx} {...props} disabled={props.disabled} />
         ))}

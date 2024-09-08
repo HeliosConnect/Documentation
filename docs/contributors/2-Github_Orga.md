@@ -87,7 +87,7 @@ Once a pull request is submitted, it will be reviewed by a maintainer. Feedback 
 4. Stay Up to Date:  
    Keep an eye on the project’s progress by following our blog, release notes, or community updates.
 
-## Community Channels
+## Meet the Community
 
 We encourage contributors to connect with us and the broader Helios Connect community through the following channels:
 

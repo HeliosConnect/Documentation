@@ -8,7 +8,7 @@ const CoreConceptsLinks: PageLinkProps[] = [
     title: "Introduction",
     content:
       "Discover helios connect and how you can leverage it to create interchain identities.",
-    docName: "/docs/concepts/intro",
+    docName: "/docs/intro",
     icon: "🏛️", // Changed to represent a structured and stable architecture.
     disabled: false,
   },

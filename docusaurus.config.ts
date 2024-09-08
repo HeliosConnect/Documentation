@@ -51,8 +51,7 @@ const config: Config = {
     announcementBar: {
       id: "support_us",
       content:
-        "Do we want something there?",
-
+        'Connect to our Dapp: <a target="_blank" rel="noopener noreferrer" href="https://heliosconnect.net">Mainnet</a> or <a target="_blank" rel="noopener noreferrer" href="https://devnet.heliosconnect.net">Devnet</a>',
       backgroundColor: "#00FFFF",
       textColor: "#091E42",
       isCloseable: false,
@@ -79,8 +78,8 @@ const config: Config = {
           label: "Usermanual",
         },
         {
-          href: "/Integrator",
-          label: "Integrator",
+          href: "/Integration",
+          label: "Integration",
         },
         {
           href: "https://github.com/Helios-collabathon",
