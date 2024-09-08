@@ -66,7 +66,7 @@ Helios Connect allows developers to seamlessly integrate multi-chain personas in
 - Cross-Chain Interactions: Enable users to conduct activities (payments, lending, and gamification) across multiple chains using one persona.
 - Asset Tracking: Helios Connect also allows users to view their assets across multiple wallets without needing to log in separately, making it a useful tool for dApp developers who want to provide comprehensive asset views across chains.
 
-![architecture](/img/architecture.png)
+![architecture](./assets/architecture.excalidraw.png)
 
 ## Expected Impact
 
