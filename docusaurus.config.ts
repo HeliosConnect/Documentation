@@ -60,7 +60,7 @@ const config: Config = {
     navbar: {
       logo: {
         alt: "Helios Connect",
-        src: "img/logo.jpg",
+        src: "img/logo.svg",
         href: "/",
       },
 
