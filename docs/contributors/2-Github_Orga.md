@@ -55,7 +55,7 @@ To ensure that contributions are consistent, efficient, and respectful, we have 
 
 ### 1. Code of Conduct
 
-All contributors must adhere to the [Helios Connect Code of Conduct](#) to maintain a welcoming and productive environment. Key points include:
+All contributors must adhere to the [Helios Connect Code of Conduct](https://github.com/Helios-Collabathon/Dapp/blob/main/CODE_OF_CONDUCT.md) to maintain a welcoming and productive environment. Key points include:
 
 - Be respectful to other contributors.
 - Be constructive and collaborate openly.

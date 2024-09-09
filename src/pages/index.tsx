@@ -19,21 +19,21 @@ export const PathLinks: PageLinkProps[] = [
     title: "Become a contributor",
     content:
       "Learn how to contribute to the Helios Connect project and become a part of our open source community.",
-    docName: "/contributor",
+    docName: "/Contributors",
     icon: "⚙️", // Represents settings or machinery, suitable for backend processes.
   },
   {
     title: "User Guide",
     content:
       "Get started with Helios Connect and learn how to use it to manage your digital identity.",
-    docName: "/user-guide",
+    docName: "/Usermanual",
     icon: "🏦", // A bank icon to symbolize asset management.
   },
   {
-    title: "Integrator Guide",
+    title: "Integration Guide",
     content:
       "Integrate Helios Connect into your applications and services to enable secure, decentralized identity management.",
-    docName: "/frontend",
+    docName: "/Integration",
     icon: "🔍", // A magnifying glass icon to represent observation and insight.
   },
 ];

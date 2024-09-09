@@ -9,16 +9,15 @@ sidebar_position: 0
 
 The Helios Collabathon is not your typical hackathon. While hackathons traditionally focus on competition, the Helios Collabathon reimagines this format by emphasising collaboration. Set against the stunning backdrop of the Spanish Costa Brava, this 10-day event brings together some of the brightest minds in Web3 to work towards a common goal: building tools that will advance the ecosystem while fostering financial inclusion and innovation.
 
-
 ![Collaboration whiteboard](./assets/1-place.png)
 
-## Why We Are Building.
+## Why We Are Building
 
 At Helios Staking, our mission has always been to support innovation and promote financial inclusion. As staking providers on MultiversX and Injective, we understand the vital role that a nurturing environment plays in allowing new ideas to flourish. The Collabathon was born from this understanding. It is a unique opportunity to create something meaningful that can positively impact both Injective, MultiversX and the wider Web3 space.
 
 Our goal is to put a spotlight on the people who make Web3 what it is: the builders. To achieve this, we’ve assembled a team of superstars from diverse backgrounds, with diverse specialties, all brought together to spend 10 days on an all-expenses-paid trip to the Costa Brava. Here, they will collaborate and build something extraordinary—together.
 
-## What We Are Building.
+## What We Are Building
 
 The centrepiece of the Collabathon is the creation of a cross-chain verification dApp called Helios Connect. This dApp will allow users to verify a singular identity across multiple wallets and ecosystems. Its potential use cases are vast, including applications in cross-chain integrations, decentralized autonomous organizations (DAOs), accounting, and more.
 
@@ -28,9 +27,9 @@ All the code for Helios Connect will be open source, allowing anyone to integrat
 
 ![Collaboration whiteboard](./assets/board.png)
 
-## How We Are Building.
-The Collabathon team has quickly found their rhythm. After an initial sync-up, everyone identified their roles and began working on their respective tasks. The development team, consisting of [Philippe](http://www.x.com/phybyte), [Patrick](http://www.x.com/0xdefser), [Micha](http://www.x.com/michavie_), [Davide](http://www.x.com/marinov_js), [Sonia](http://www.x.com/soniasinglas), and [Nicolae](http://www.x.com/mogagenicolae), has been hard at work on the back-end, front-end, and supporting documentation. Each member brings a unique set of skills to the table, and together they are making significant progress on the technical aspects of the project.
+## How We Are Building
 
+The Collabathon team has quickly found their rhythm. After an initial sync-up, everyone identified their roles and began working on their respective tasks. The development team, consisting of [Philippe](http://www.x.com/phybyte), [Patrick](http://www.x.com/0xdefser), [Micha](http://www.x.com/michavie_), [Davide](http://www.x.com/marinov_js), [Sonia](http://www.x.com/soniasinglas), and [Nicolae](http://www.x.com/mogagenicolae), has been hard at work on the back-end, front-end, and supporting documentation. Each member brings a unique set of skills to the table, and together they are making significant progress on the technical aspects of the project.
 
 You can follow their progress through the [Helios Collabathon Github Organization](https://github.com/Helios-Collabathon)
 
@@ -44,7 +43,7 @@ The whole event has been ably assisted by our hospitality experts Cara & Chelsea
 
 This blend of technical and creative talents is what makes the Collabathon so special. It’s not just about building a product—it’s about telling a story, one that highlights the power of collaboration in the Web3 space.
 
-# Introducing Helios Connect
+## Introducing Helios Connect
 
 The culmination of our efforts is Helios Connect, a hub for connecting Web3 wallets across ecosystems to form a singular, provable identity. In an increasingly multi and cross-chain environment, the ability to verify user identities across different chains will become essential. Helios Connect will provide this functionality, helping projects verify the identity of their users across chains and borders.
 
@@ -54,7 +53,7 @@ This tool is about empowering Web3 users and products with tools that connect th
 
 The dApp is live on devnet and will update as development continues 💪
 
-# The road ahead
+## The road ahead
 
 The Collabathon is just the beginning. Over the next 10 days, our team will continue to work tirelessly to bring Helios Connect to life. But our vision extends beyond this. We see Helios Connect as a foundational tool that will continue to evolve and expand long after the event is over.
 
