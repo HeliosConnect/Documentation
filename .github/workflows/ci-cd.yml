@@ -22,9 +22,9 @@ jobs:
 
       - name: Build the Docker image
         run: |
-          docker build . --file Dockerfile --tag ghcr.io/helios-collabathon/documentation:latest
+          docker build . --file Dockerfile --tag ghcr.io/heliosconnect/documentation:latest
 
       - name: Push the Docker image
 
         run: |
-          docker push ghcr.io/helios-collabathon/documentation:latest
+          docker push ghcr.io/heliosconnect/documentation:latest
